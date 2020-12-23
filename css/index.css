@@ -1,0 +1,50 @@
+.inWrap{width: 320px; margin: auto; position: relative;}
+.inWrap img{max-width: 100%;}
+
+
+#banner{height: 385px;
+background-image: url(../images/bg_main_3.jpg);
+background-size: cover;
+background-position: center;
+text-align: center;
+color: #fff; }
+#banner h3{padding-top: 123px; font-size: 30px; line-height: 1.5;}
+#banner .links{padding-top: 30px; }
+#banner .links a{display: inline-block; width: 128px; height: 38px; border: 1px solid #fff; border-radius: 3px; 
+    line-height: 38px; font-size: 12px; font-weight: bold;
+    margin: 0 4px;
+}
+#banner .links a span{display: inline-block; width:20px; height: 20px; margin-top: 10px; margin-left: 10px;  float: left; }
+#banner .links a[href="#google"] span{background-position: 0 -120px;}
+#banner .links a[href="#apps"] span{background-position: -20px -120px;}
+
+section > div{padding-top: 60px;}
+section > div h3{font-size: 23px; font-weight: bold; padding-bottom: 25px; line-height: 1.3; }
+section > div p{font-size: 14px; line-height: 1.4;
+padding-bottom: 35px; }
+section > div img{}
+.sect1{padding-bottom: 64px; }
+.sect2{background-color: #f7f7f7;  }
+.sect2 img:first-of-type{border-top: 1px solid #f1f1f1; margin-bottom: 50px;}
+.sect2 .more{position: absolute; bottom: 25px; left: 55px; 
+background-color: #fff; border: 1px solid #e7e7e7; border-radius: 20px; width: 216px; padding: 14px; font-size: 14px; font-weight: bold; color: #003f85; text-align: center; }
+
+.sect3{margin-bottom: 60px;}
+.sect3 img:first-of-type{margin-bottom: 65px;}
+.sect3 .grad{position: absolute; left: 0; bottom: 0;}
+
+.sect4{background-color: #559cde; color: #fff; text-align: center; 
+overflow: hidden;}
+.sect4 img{position: relative;top: 50px;}
+
+.sect5{text-align: center; margin-bottom: 60px; }
+.sect5 .more2{border: 1px solid #ebebeb; padding: 18px; border-radius: 3px; font-size: 14px; display: block; margin-top: 48px;
+transition: 0.3s; }
+.sect5 .more2:hover{background-color: #ebebeb; }
+
+.sect6{background-color: #f7f7f7; text-align: center;
+}
+.sect6 img{width: 100px; }
+.sect6 hr{background-color: #e9e9e9; border: 0; height: 1px; margin-bottom: 58px;}
+.sect6 .bar{width: 70px; background-color: #000; }
+.sect6 h4{font-weight: bold; margin-bottom: 15px; margin-top: 25px;}

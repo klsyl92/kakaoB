@@ -1,0 +1,84 @@
+section{}
+section h2{display: none;}
+section form{
+    padding: 20px; 
+    border-bottom: 1px solid #f3f3f3;
+}
+section form label{
+    display: inline-block;
+    width: 20px; height: 20px;
+    background-position: -40px -40px;
+    text-indent: -9999em;
+}
+section form input{
+    width: 80%; 
+    border: 0; outline: 0;
+}
+article{}
+article h3{
+    padding: 30px 20px 17px;
+    border-bottom: 1px solid #f3f3f3;
+}
+article ul{}
+article ul li{}
+article ul li .q{
+    padding: 27px 18px;
+    border-bottom: 1px solid #f3f3f3;
+    overflow: auto;
+    cursor: pointer;
+}
+article ul li .q:hover{font-weight: bold;}
+article ul li .q .tit{
+    float: left; 
+    max-width: 563px; width: 90%;
+}
+article ul li .q .tit::before{
+    content: 'Q '; color: #ce0077;
+    font-weight: bold;
+}
+article ul li .q .icon{
+    float: right; width: 16px;
+}
+article ul li .q .icon span{
+    display: block;
+    text-indent: -9999em;
+    width: 16px; height: 10px;
+    background-position: -104px 0;
+}
+article ul li .q .icon.act span{background-position: -104px -10px;}
+
+article ul li .a{
+    display: none;
+    background-color: #f7f7f7;
+    padding: 36px 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+article ul li .a p{
+    margin-bottom: 32px; line-height: 1.5;
+    color: #737373;
+}
+article ul li .a p strong{font-weight: bold;}
+
+article .more{
+    width: calc(100% - 50px);
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 25px; padding: 20px 0;
+    font-size: 16px;
+}
+article > p{
+    text-align: center;
+    padding: 20px 0;
+}
+article > p span{
+    display: inline-block;
+    width: 20px; height: 20px;
+    text-indent: -9999em;
+    background-position: -20px -38px;
+}
+article > p a{
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+

@@ -1,0 +1,53 @@
+body{font-family: "돋움", sans-serif; }
+a{text-decoration: none; color: inherit; }
+.hide{display: none; }
+#wrap{min-height: 320px; /*max-width: 640px;*/ margin: auto;}
+.kabank{background-image: url(../images/kabang.png);
+background-repeat: no-repeat;}
+
+button{border: 0; background-color: transparent; cursor: pointer; }
+
+
+
+#hd{position: absolute; top: 16px; left: 0; width: 100%; }
+#hd h1{width: 80px; height: 14px; margin: auto;
+background-position: 0 -20px;}
+#hd h1 a{display: block;width: 100%; height: 100%;}
+
+#hd .menuBtn{width: 20px; height: 14px;
+background-position: -80px -20px; 
+margin-left: 16px; position: absolute; top: 0; left: 0; }
+
+#menuBox{display: none; 
+    background-color: rgba(0,0,0, 0.5);
+    position: fixed; top: 0; left: 0; width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.box{
+    background-color: #fff; 
+    padding-top: 16px;
+}
+.box nav a:hover{font-weight: bold;}
+.box footer a:hover{color: #000; }
+
+.box h2{width: 77px; height: 15px; margin: auto;}
+.box h2 a{display: block;width: 100%; height: 100%;}
+.box .closeBtn{width: 16px; height: 16px;
+    background-position: -60px -40px;
+    position: absolute; left: 16px; top: 16px;}
+
+.box nav{}
+.box nav ul{padding: 20px 20px 0 20px;}
+.box nav ul li{border-bottom: 1px solid #f0f0f0;}
+.box nav ul li:last-child{border: 0;}
+
+.box nav ul li a{display: block; padding: 20px 0; padding-left: 10px; font-size: 16px;}
+.box footer{background-color: #f0f0f0; font-size: 12px; padding: 20px;}
+.box footer ul{padding-bottom: 14px;}
+.box footer ul li{display: inline; border-right: 1px solid #c7c6c6; padding-right: 10px; margin-right: 8px; }
+.box footer ul li a{color: #888888; }
+.box footer p{color: #9f9f9f; }
+.box footer p a{border: 1px solid #dcdcdc; border-radius: 3px;
+padding: 3px; margin-left: 12px;}
+

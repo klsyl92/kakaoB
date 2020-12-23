@@ -1,0 +1,9 @@
+$(function(){
+    //메뉴
+    $('.menuBtn').click(function(){
+        $('#menuBox').show();
+    })
+    $('.closeBtn').click(function(){
+        $('#menuBox').hide();
+    })
+})
